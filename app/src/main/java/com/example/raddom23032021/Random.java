@@ -33,13 +33,13 @@ public class Random extends Activity {
                 mKQ.setText(res);
             }
         });
-        mBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Random.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
+//        mBack.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Random.this, MainActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
     }
 
